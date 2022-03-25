@@ -1,9 +1,8 @@
 let num = 266219;
-let arr = String(num).split('')
 let multiply = 1;
 
-for (let i = 0; i < arr.length; i++) {
-    multiply *= Number(arr[i])
+for (let i = 0; i < String(num).split('').length; i++) {
+    multiply *= Number(String(num).split('')[i])
 }
 
 console.log(multiply);
