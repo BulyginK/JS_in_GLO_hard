@@ -2,7 +2,7 @@ let num = 266219;
 let multiply = 1;
 
 for (let i = 0; i < String(num).split('').length; i++) {
-    multiply *= Number(String(num).split('')[i])
+    multiply *= Number(String(num).split('')[i]);
 }
 
 console.log(multiply);
